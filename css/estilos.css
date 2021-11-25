@@ -272,7 +272,7 @@ body{
         font-family: 'Montserrat', sans-serif;;
     }
 
- /*   section div{
+/*   section div{
         margin: 15px;
         padding: 20px;
         font-size: 1,5rem;
@@ -452,7 +452,7 @@ body{
     }
 
 
-     .pieDePagina.quienesSomosPie,.pieDePagina.carritoSomosPie{
+    .pieDePagina.quienesSomosPie,.pieDePagina.carritoSomosPie{
             position: fixed; bottom: 0; width: 100%
         }
 
@@ -462,7 +462,7 @@ body{
             padding-left: 20%;
         }
 
-         html {
+        html {
             width: 108%;
         }
 
@@ -497,7 +497,7 @@ body{
     @media screen and (min-width:700px) and (max-width:800px){ 
 
 
-       
+
 
         .productosIndex img{
             width: 30% !important;
@@ -524,7 +524,7 @@ body{
     width: 100%;
 }
 
-         body .pieDePagina.quienesSomosPie{
+        body .pieDePagina.quienesSomosPie{
             position: unset; bottom: 0; width: 100%
         }
 
