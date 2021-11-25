@@ -1,0 +1,676 @@
+/*@import url('https://fonts.google.com/specimen/Anton#about');*/
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+body{
+    background-image: url(https://www.womgp.com/blog/wp-content/uploads/2021/03/dise%C3%B1o-3D.jpg);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    text-shadow: 1px 1px black;
+}
+
+/* nombre dimensiones caracteristicas */
+table tr th{
+    color: rgba(255, 39, 10, 0.842);
+    text-align: center;
+}
+/* Nombre de los productos y sus detalles */
+table tr td{
+    color: rgba(0, 0, 0, 0.897);
+    text-align: center;
+}
+
+/* Productos */
+h1 {
+    color: rgb(0, 0, 0);
+}
+
+header h1 {
+    color: rgb(0, 0, 0);
+}
+
+header div h1{
+    color:#003366;
+    text-align: center;
+    letter-spacing: 15px;
+    height: 80px;
+    font-size: 80px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    padding-right: 45px;
+}
+
+header h1 p{
+    color: black;
+}
+
+.bodyInicio{
+    text-align: center;
+    
+}
+
+.subtitulo{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    
+
+}
+
+h2{
+    font-size: 45px;
+    font-weight: bold;
+    margin-top: 30px;
+}
+
+.proyectos{
+    text-align: center;
+}
+
+h3 {
+    font-size: 30px;
+}
+
+h3 p{
+    font-size: 20px;
+}
+
+
+.videoIndex{
+    text-align: center;
+}
+
+
+
+.contactoPag .contacto input{
+    margin-top: 1.5%
+}
+
+.tablaIndex{
+    box-sizing: inherit;
+    margin: 0 auto;
+    
+}
+
+table{
+    background-color: white;
+}
+
+
+.productosIndex img {
+    width: 10%;
+    margin: 2%;
+    border: 0.5px solid white;
+    border-radius: 25px;
+    box-shadow: 1px 1px 14px rgb(0 0 0 / 60%);
+}
+
+.productosIndex img:hover{
+    box-shadow: 1px 1px 14px rgb(0 0 0 / 100%);
+}
+/* PAGINA PRODUCTOS */
+body .navbar .productos{
+    background: yellow !important;
+    color: white;
+    box-sizing: content-box;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif ;
+    flex-flow: column;
+
+}
+
+nav{
+    flex-flow: column;
+}
+
+.catprod{
+    color: black;
+}
+
+/* PAGINA QUIENES SOMOS */
+.quienes{
+    font-size: 22px;
+    font-style: italic;
+    font-weight: bold;
+    width: 50%
+}
+
+/* GRIDS */
+html{
+    height: 100%;
+}
+
+body{
+    min-height: 100%;
+}
+
+.grid-container > *{
+    border-radius: 0px 0px 4px 4px;
+    padding: 10px;
+}
+
+/*.grid-container{
+    margin: 0;
+    padding: 0;
+    display: grid;
+    gap: 10px;
+    grid-template-areas: 
+    "header"
+    "navbar"
+    "main"
+    "sidebar"
+    "footer";
+
+    }*/
+
+    .header{
+        grid-area: header;
+        background-color: transparent;
+    }
+
+    .navbar{
+        grid-area: navbar;
+        background-color: orange;;
+        font-size: 16px;
+        text-decoration: none;
+        flex-flow: column !important;
+        
+    }
+
+    .navbar > a{
+        padding-left:30px;
+        padding-right:30px;
+    }
+
+    .navbar a{
+        font-size: 22px;
+        font-weight: 700;
+        padding-left:85px !important;
+        padding-right:85px !important;
+        
+    }
+
+
+    .navbar-toggler{
+        align-self: flex-start;
+    }
+
+    .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show>.nav-link{
+        color: #003366;
+    }
+
+    .main{
+        grid-area: main;
+
+    }
+
+    .sidebar{
+        grid-area: sidebar;
+        background-color: grey
+    }
+
+    .piedepagina{
+        grid-area: pie de pagina;
+        background-color: yellow;
+    }
+
+
+
+    /* Menu desplegable */
+
+    ul li{
+        display: inline-block;
+        height: 20%;
+        width: 19%;
+        position: relative;;
+        padding: 0.5rem 0.5rem;
+        margin: 0rem 0rem;
+
+
+    }
+
+    #menu li>a{
+        display: block;
+        text-decoration: none;
+        font-style: italic;
+        font-weight: bold;
+        font-size: 26px;
+        color: black;
+        text-decoration-style: none;
+    }
+
+
+
+    #menu>li{
+        float: left;
+        text-align: center;
+    }
+
+    #menu>li>ul{
+        display: none;
+    }
+
+    #menu>li:hover>ul{
+        display: block;
+    }
+
+    /* TABLA DE PRODUCTOS */
+    section table th{
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: x-large;
+    }
+
+    section table td{
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: large;
+    }
+
+    header div h1{
+        background-color:transparent;
+    }
+
+    h1{
+        font-family: 'Montserrat', sans-serif;;
+    }
+
+ /*   section div{
+        margin: 15px;
+        padding: 20px;
+        font-size: 1,5rem;
+    }*/
+
+    .productosIndex{
+        text-align: center;
+        transform: scaleX(1,1);
+    }
+
+    .imagenesProd{
+        text-align: center;
+
+    }
+
+
+
+
+
+    /* Publicidad */
+    .publicidad{
+        color: rgb(255, 1, 1);
+        justify-content: end;
+        flex-direction: row-reverse;
+        text-align: center;
+
+    }
+
+    .publicidad img{
+        animation: n 5s infinite;
+    }
+
+    .carritoNav{
+        background-color: yellow;
+        font-style: italic;
+        font-weight: bold;
+
+    }
+
+    .contactoNav{
+        background-color: yellow;
+        text-decoration: none;
+    }
+
+    .infoContacto{
+        font-family: Arial, Helvetica, sans-serif;
+        text-align: center;
+    }
+
+    .infoContacto h1{
+        font-size: 55px;
+    }
+
+    .pE{
+        text-align: center;
+        text-decoration: none;
+        font-size: 60px;
+    }
+
+
+    .pEquienes{
+        font-size: 25px;
+        margin-right: 15%;
+        margin-left: 15%;
+        margin-top: 1%;
+
+    }
+
+    .dondeEstamos{
+        text-align: center;
+    }
+
+    .ubicacionContacto{
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .contacto{
+
+        background-color: white;
+        border: 1px solid black;
+        border-radius: 15px;
+        margin: 0 auto;
+        display: table;
+        color: black;
+        width: 25%;
+        padding: 2%
+    }
+
+    .info{
+        font-size: 25px;
+        text-align: center;
+    }
+
+    .contacto input, .contacto textarea{
+        width: 100%;
+
+    }
+
+    .enviar input{
+        margin-top: 2%
+    }
+
+    .nombreApellido{
+        margin-bottom: 1%;
+        margin-top: 1%;
+    }
+
+    .mail{
+        margin-bottom: 1%;
+    }
+
+    .enviar{
+        margin-top: 1%;
+    }
+
+    .carrito{
+        background-color: white;
+        text-align: center;
+    }
+
+    .tarjetas{
+        text-align: center;
+        transform: translate(10px )
+    }
+
+    .mapa{
+        transform: rotateX(10deg)
+        translateX(20deg)
+    }
+
+    .imagenesCards{
+        margin: 0 auto;
+        display: table;
+        color: black;
+        text-shadow: none;
+        
+    }
+
+    .imagenesCards img{
+        width: 100%;
+        height: 250px;
+        border-radius: 10px
+    }
+
+
+
+    .imagenesCards .col-sm-6 img{
+        box-shadow: 0px 0px 15px rgb(0 0 0 / 50%);
+    }
+
+    .imagenesCards .col-sm-6 img:hover{
+        box-shadow: 0px 0px 15px rgb(0 0 0 / 80%);
+    }
+
+    .quienres{
+        width: 50%;
+        
+    }
+
+    footer{
+        color: black;
+        font-size: larger;
+        font-family: "Bebas Neue", cursive;
+        background-color:#003366;
+        font-size: 22px;
+        
+
+    }
+
+    .pieProductos{
+        margin-top: 25%;
+        width: 100%;
+        display: inline;
+        
+        
+    }
+
+
+     .pieDePagina.quienesSomosPie,.pieDePagina.carritoSomosPie{
+            position: fixed; bottom: 0; width: 100%
+        }
+
+    @media screen and (max-width:320px) { 
+
+        html body header div h1{
+            padding-left: 20%;
+        }
+
+         html {
+            width: 108%;
+        }
+
+        html.quienesHtml{
+            width: 100%
+        }
+
+
+
+    }
+
+    @media screen and (max-width:480px){ 
+    /*  .grid-container{
+        grid-template-columns: 200px auto;
+        grid-template-rows: 100px 50px auto 100px;
+        margin: 0;
+        padding: 0;
+        display: grid;
+        gap: 10px;
+        grid-template-areas: 
+        "header header"
+        "navbar navbar"
+        "sidebar main"
+        "footer footer";
+        }*/
+
+
+
+
+    }
+
+    @media screen and (min-width:700px) and (max-width:800px){ 
+
+
+       
+
+        .productosIndex img{
+            width: 30% !important;
+        }
+
+        .header{
+            margin: 100;
+            padding: 100;
+            width: 150%;
+            display: block;
+        }
+
+    }
+
+    @media screen and (min-width:300px) and (max-width:800px){ 
+
+        body .infoContacto h1{
+            font-size: 35px
+        }
+
+        body .pieDePagina.carritoSomosPie {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+         body .pieDePagina.quienesSomosPie{
+            position: unset; bottom: 0; width: 100%
+        }
+
+        body .header, body header div h1 {
+            grid-area: header;
+            background-color: transparent;
+        }
+
+        body  header div h1{
+            color:#003366;
+            text-align: center;
+            letter-spacing: 15px;
+            height: 15px;
+            font-size: 20px;
+            margin-top: 5px;
+            margin-bottom: 15px;
+            padding-right: 0px;
+        }
+
+        .videoIndex{
+            margin: 0;
+            padding: 0;
+        }
+
+        .header{
+            margin: 100;
+            padding: 100;
+            width: 100% !important;
+            display: block;
+            position: absolute;
+        }
+
+        .video{
+            width: 100%;
+        }
+
+        .videoIndex video{
+            width: 100%
+        }
+
+        .productosIndex img{
+            width: 45%
+        }
+
+        .contacto{
+            width: 95%;
+            display: block;
+        }
+
+        .pieDePagina a{
+            width: 100%
+        }
+
+
+        .pieDePagina a {
+            display:inline;
+
+        }
+        .pieDePagina a:after {
+            content:"\a";
+            white-space: pre;
+            margin-top: 2%
+        }
+
+        table{
+            width: 95%;
+            padding: 0;
+            margin: 0;
+        }
+
+        .tabla{
+            margin: 0;
+            padding: 0;
+        }
+
+        table tr td {
+            color: rgba(0, 0, 0, 0.897);
+            text-align: center;
+            font-size: 15px;
+        }
+
+        .imagenesCards .col-sm-6{
+            width: 100%;
+            margin-top: 2%
+        }
+
+
+        .imagenesCards{
+            width: 95%;
+            margin: 0 auto;
+            display: table;
+            color: black;
+            text-shadow: none;
+        }
+
+        .quienes{
+            width: 100%
+        }
+
+
+        .contacto input, .contacto textarea {
+            width: 85%;
+        }
+
+        .contactoPag input, .contactoPag textarea {
+            width: 100%;
+        }
+
+        .mapaContacto{
+            display: flex;
+        }
+
+    }
+
+    @keyframes n {
+        0% {
+            transform: scale(.75);
+        }
+        20% {
+            transform: scale(1);
+        }
+        40% {
+            transform: scale(.75);
+        }
+        60% {
+            transform: scale(1);
+        }
+        80% {
+            transform: scale(.75);
+        }
+        to {
+            transform: scale(.75);
+        }
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
